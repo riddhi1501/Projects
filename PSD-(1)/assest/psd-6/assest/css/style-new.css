@@ -1,0 +1,554 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    list-style: none;
+    /* border: 1px solid black; */
+}
+
+.conatiner {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.align {
+    align-items: center;
+}
+
+.justify {
+    justify-content: space-between;
+}
+
+
+.col-60 {
+    width: 60%;
+}
+
+.col-40 {
+    width: 40%;
+}
+
+.col-100 {
+    width: 100%;
+}
+
+.col-20 {
+    width: 20%;
+}
+
+.col-25 {
+    width: 25%;
+}
+
+
+/* header :start */
+
+header {
+    padding: 50px 30px;
+    background-color: rgb(35, 35, 65);
+}
+
+.box {
+    background-color: rgb(250, 250, 252);
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 50px;
+    padding: 30px 0 50px 0;
+}
+
+.logo img {
+    width: 100%;
+
+}
+
+.main-tx ul li {
+    display: inline-block;
+    padding: 15px 5px;
+}
+
+.main-tx ul li :hover {
+    color: #fbca47;
+}
+
+.main-tx ul li a i {
+    margin: 0 5px;
+    color: rgb(222, 173, 50);
+}
+
+.main-tx ul li a {
+    color: black;
+}
+
+/* .silder-section */
+
+.progress h3 {
+    font-size: 30px;
+    color: #fbca47;
+    margin: 50px 0 0 0;
+
+}
+
+.progress h1 {
+    font-size: 50px;
+}
+
+.progress p {
+    width: 85%;
+    padding: 30px 0;
+}
+
+button {
+    padding: 15px 40px;
+    color: aliceblue;
+    border-radius: 10px;
+    background-color: #17094c;
+    border: 1px solid #17094c;
+    margin: 20px 0;
+}
+
+
+button:hover {
+    background-color: #fbca47;
+    border: 1px solid #fbca47;
+}
+
+.ban-img img {
+    width: 100%;
+    display: block;
+}
+
+.slick-next {
+    right: 0px !important;
+    left: 26% !important;
+    top: 280px !important;
+}
+
+.slick-prev {
+    right: 0px !important;
+    left: 20% !important;
+    top: 280px !important;
+}
+
+.slick-prev,
+.slick-next {
+    width: 0 !important;
+    height: 0 !important;
+}
+
+.slick-next:before {
+    font-family: 'slick';
+    font-size: 50px !important;
+    opacity: .75 !important;
+    color: #fbca47 !important;
+}
+
+.slick-prev::before {
+    font-size: 50px !important;
+    opacity: .75 !important;
+    color: #fbca47 !important;
+}
+
+/* header :end */
+
+/* section-about :start */
+
+.about {
+    padding: 60PX 0;
+}
+
+
+.about-img img {
+    width: 100%;
+}
+
+.about-tx {
+    padding: 30px 30px;
+}
+
+.about-tx span {
+    color: #fbca47;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.about-tx h4 {
+    padding: 10px 0;
+    font-size: 30px;
+}
+
+.about-tx p {
+    width: 110%;
+    font-size: 20px;
+    padding: 20px 0;
+    line-height: 30px;
+}
+
+/* section-about-end */
+
+/* section-1 (services)-start */
+
+.sec-1 {
+    background-color: #17094c;
+    padding: 80px 0;
+    border-top: 2px dashed white;
+    border-bottom: 2px dashed white;
+}
+
+.service h3 {
+    color: #fbca47;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.service p {
+    font-size: 40px;
+    padding: 0 0 30px 0;
+    color: aliceblue;
+}
+
+.service-img {
+    display: grid;
+    place-items: center;
+}
+
+.service-img img {
+    width: 50%;
+    padding: 20px 0;
+    display: block;
+}
+
+.service-tx h2:hover {
+    color: #fbca47;
+}
+
+.service-tx {
+    color: aliceblue;
+    text-align: center;
+}
+
+.service-tx h2 {
+    font-size: 22px;
+    padding: 10px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.service-tx button {
+    border: 1px solid white;
+    padding: 15px 50px;
+    margin: 40px 0 0 0;
+}
+
+/* section-1 (services)-end */
+
+
+
+
+/* section-2-satrt (bitcoin) */
+
+/* <====but we are same class===>*/
+
+/* section-3-satrt (wallet) */
+
+.sec-2 {
+    padding: 40px 0;
+}
+
+.bitcoin {
+    text-align: center;
+}
+
+.bitcoin p {
+    font-size: 20px;
+    color: #fbca47;
+    font-weight: bold;
+    padding: 15px 0;
+}
+
+.bitcoin h2 {
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: 90;
+    /* padding: 20px 0; */
+}
+
+.bitcon-img {
+    display: grid;
+    place-items: center;
+}
+
+.bitcon-img img {
+    display: block;
+    padding: 60px 0;
+}
+
+.btn {
+    text-align: center;
+}
+
+/* section-2- end  (bitcoin) */
+
+/* <====but we are same class===>*/
+
+/* section-3-end (wallet) */
+
+/* section-4 :start(digital) */
+
+
+.sec-4 {
+    background-image: url('../img/sub_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0 80px 0;
+}
+
+.SUBSCRIBE {
+    text-align: center;
+    color: aliceblue;
+    padding: 30px 0;
+}
+
+.SUBSCRIBE h2 {
+    font-size: 35px;
+    padding: 30px 0;
+    font-weight: bold;
+}
+
+.SUBSCRIBE p {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 33px;
+    font-weight: 500;
+}
+
+.inp {
+    background-color: aliceblue;
+    width: 80%;
+    border: 1px solid;
+    margin: 0 auto;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inp input {
+    background-color: transparent;
+    border: none;
+    padding: 15px 0;
+    outline: none;
+}
+
+.inp button {
+    padding: 5px 10px;
+    margin: 5px 0 5px 500px;
+}
+
+/* section-4 :end(digital) */
+
+/* section-5 :stat(test) */
+
+.test {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.test p {
+    color: #fbca47;
+    font-size: 18px;
+    font-weight: bold;
+    /* padding: 10px 0; */
+}
+
+.test h3 {
+    font-size: 30px;
+    font-weight: 400;
+    padding: 10px 0;
+}
+
+.distracted-img {
+    display: grid;
+    place-items: center;
+}
+
+.distracted-img img {
+    /* width: 30%; */
+    display: block;
+    padding: 20px 0;
+}
+
+.distracted-tx {
+    text-align: center;
+}
+
+.distracted-img p {
+    font-size: 20px;
+
+}
+
+.bod {
+    border: 2px solid #fbca47;
+    width: 15%;
+}
+
+.distracted-tx p {
+    padding: 33px 0;
+    font-size: 20px;
+    width: 90%;
+    line-height: 38px;
+    margin: 0 auto;
+}
+
+
+.slick-dots li button:before {
+    font-size: 30px !important;
+    margin: 10PX 0 !important;
+    color: #17094c !important;
+}
+
+/* section-5 :end (.test) */
+
+/* .section-6 :start */
+
+.contact {
+    text-align: center;
+    padding: 80px 0 40px 0;
+}
+
+.contact p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fbca47;
+}
+
+.contact h3 {
+    font-size: 30px;
+    padding: 10px 0;
+    font-weight: 500;
+}
+
+.contact-tx input,
+.contact-tx textarea {
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+    background: #fff;
+    color: #cecece;
+    font-size: 18px;
+    font-weight: normal;
+    border: #ccc8da solid 1px;
+    border-radius: 30px;
+    padding: 20px 30px;
+}
+
+.contact-btn {
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.contact-btn button {
+    background-color: #fbca47;
+    padding: 10px 60px;
+    border: 1px solid #fbca47;
+
+}
+
+/* .section-6 :end */
+
+.map-img img {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+/* footer-satrt */
+
+.f-bg {
+    background-color: #17094c;
+    padding: 40px 0;
+}
+
+.digitalex-img img {
+    width: 70%;
+}
+
+.digitalex-img p {
+    color: white;
+    padding: 10px 0;
+    margin: 0 20px;
+    font-size: 18px;
+    width: 90%;
+    line-height: 30px;
+}
+
+.quick-link h3 {
+    color: white;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+.quick-link ul li a {
+    color: white;
+    padding: 10px 0;
+    /* text-align: center; */
+    display: block;
+    margin: 0 10px;
+}
+
+.quick-link ul li i {
+    margin: 0 10px;
+}
+
+.insta h3 {
+    color: white;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+.insta p {
+    color: white;
+    font-size: 18px;
+    padding: 12px 0;
+}
+
+.icon-f {
+    display: flex;
+}
+
+.icon-f i {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: white;
+    display: grid;
+    place-items: center;
+    margin: 10px 5px;
+    font-size: 20px;
+}
+
+.contact-f h3 {
+    padding: 10px 0;
+    color: white;
+    font-size: 30px;
+}
+
+.contact-f ul li a {
+    color: white;
+    padding: 10px 0;
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contact-f i {
+    padding: 0 5px;
+}
